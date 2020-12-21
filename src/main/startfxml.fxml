@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.StartController">
+   <children>
+      <Button fx:id="finishButton" layoutX="274.0" layoutY="334.0" mnemonicParsing="false" onAction="#finish" text="finish" />
+      <TextField fx:id="mapWidth" layoutX="199.0" layoutY="30.0" prefHeight="25.0" prefWidth="193.0" promptText="map width" />
+      <TextField fx:id="mapHeight" layoutX="201.0" layoutY="69.0" prefHeight="25.0" prefWidth="193.0" promptText="map height" />
+      <TextField fx:id="moveEnergy" layoutX="200.0" layoutY="108.0" prefHeight="25.0" prefWidth="193.0" promptText="move energy" />
+      <TextField fx:id="startEnergy" layoutX="201.0" layoutY="146.0" prefHeight="25.0" prefWidth="193.0" promptText="start energy" />
+      <TextField fx:id="plantEnergy" layoutX="201.0" layoutY="181.0" prefHeight="25.0" prefWidth="193.0" promptText="plant energy" />
+      <TextField fx:id="jungleRatio" layoutX="202.0" layoutY="217.0" prefHeight="25.0" prefWidth="193.0" promptText="jungle ratio (in %)" />
+      <TextField fx:id="initialNumber" layoutX="203.0" layoutY="259.0" prefHeight="25.0" prefWidth="193.0" promptText="initial number of rabbits" />
+      <TextField fx:id="frameRate" layoutX="204.0" layoutY="299.0" prefHeight="25.0" prefWidth="193.0" promptText="time between frames in milliseconds">
+         <font>
+            <Font size="11.0" />
+         </font></TextField>
+   </children>
+</AnchorPane>

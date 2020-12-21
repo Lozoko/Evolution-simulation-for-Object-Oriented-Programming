@@ -1,0 +1,1 @@
+Do uruchomienia potrzebna jest najnowsza biblioteka javafx

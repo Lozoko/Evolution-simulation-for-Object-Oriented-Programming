@@ -1,0 +1,8 @@
+average number of alive rabbits: 23.723425
+average number of carrots: 6.8464565
+average energy level: 22.218742
+average life time: 37.973866
+average number of children: 2.4096076
+dominating genotype:
+[0, 0, 0, 1, 1, 1, 1, 2, 2, 2, 2, 3, 3, 3, 3, 4, 4, 4, 4, 4, 4, 4, 5, 6, 6, 6, 6, 6, 7, 7, 7, 7]
+number of rabbits with dominating genotype: 26
